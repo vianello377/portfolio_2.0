@@ -1,0 +1,63 @@
+nav {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin-bottom: 8%;
+  gap: 15%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 1000;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-image: url("https://mon-grand-est.fr/wp-content/uploads/2022/11/Monaco-by-night-@kityyaya-via-Twenty20-scaled.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 1, 0.5);
+  width: 20%;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 1, 0.5);
+  margin-top: 8%;
+  font-size: 30px;
+  max-width: 70%;
+}
+
+a.btn-back {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+a.btn-back:hover {
+  background-color: #e53935;
+}

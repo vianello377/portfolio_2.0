@@ -238,6 +238,8 @@ a {
   color: #ffffff;
 }
 .btn-plus {
+  display: flex;
+  max-width: 10%;
   background-color: #1e00ff;
   color: white;
   padding: 10px 20px;
