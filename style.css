@@ -12,6 +12,7 @@ nav {
   top: 0;
   overflow: hidden;
   z-index: 1000;
+  display: inline-block;
 }
 
 .div_a_propos {
@@ -130,7 +131,9 @@ a {
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
+  font-size: 1.2em;
   margin-top: 2rem;
+  padding: 10px 15px;
 }
 
 .compétences_titre {
